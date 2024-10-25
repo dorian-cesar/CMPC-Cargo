@@ -105,7 +105,7 @@ foreach ($array as $item) {
  
 
   $plate = substr($item->label, 0, 7);
-  $plate=str_replace('-', '', $plate);
+ // $plate=str_replace('-', '', $plate);
 
   $speed = $json2->state->gps->speed;
   $alt= $json2->state->gps->alt;
